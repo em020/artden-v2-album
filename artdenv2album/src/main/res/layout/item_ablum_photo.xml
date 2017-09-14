@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/img_photo"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        app:actualImageScaleType="centerCrop"/>
+
+    <!--选中态遮罩层，通过alpha0来隐藏-->
+    <ImageView
+        android:id="@+id/image_selection_mask"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:alpha="1"
+        android:background="@drawable/shape_artwork_selected"
+        android:scaleType="center" />
+</FrameLayout>
