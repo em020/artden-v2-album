@@ -17,6 +17,6 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:alpha="1"
-        android:background="@drawable/shape_artwork_selected"
+        android:background="@drawable/a2alb_shape_artwork_selected"
         android:scaleType="center" />
 </FrameLayout>

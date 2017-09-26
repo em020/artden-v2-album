@@ -13,7 +13,7 @@ ext {
     siteUrl = 'https://site-url.foo'
     gitUrl = 'https://git-url.foo'
 
-    libraryVersion = '0.0.1'
+    libraryVersion = '0.0.2'
 
     developerId = 'em020'
     developerName = 'Yimin S'
@@ -42,6 +42,8 @@ tasks.withType(JavaCompile) {
 android {
     compileSdkVersion 25
     buildToolsVersion "26.0.1"
+
+    resourcePrefix 'a2alb_'
 
     defaultConfig {
         minSdkVersion 16

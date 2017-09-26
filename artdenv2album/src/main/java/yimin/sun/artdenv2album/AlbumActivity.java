@@ -59,7 +59,7 @@ public class AlbumActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        setContentView(R.layout.activity_album);
+        setContentView(R.layout.a2alb_activity_album);
 
         StatusBarFucker fucker = new StatusBarFucker();
         fucker.setWindowExtend(1);
@@ -194,7 +194,7 @@ public class AlbumActivity extends AppCompatActivity {
     private void showPopUpWindow() {
 
         if (popupWindow == null) {
-            View view = LayoutInflater.from(this).inflate(R.layout.layout_albumlist, null);
+            View view = LayoutInflater.from(this).inflate(R.layout.a2alb_layout_albumlist, null);
             RecyclerView recycler = (RecyclerView) view.findViewById(R.id.recycler);
             recycler.setLayoutManager(new LinearLayoutManager(this));
             recycler.setHasFixedSize(true);
@@ -216,7 +216,7 @@ public class AlbumActivity extends AppCompatActivity {
         popupWindow.setTouchable(true); // default is true
         popupWindow.setOutsideTouchable(true); // default is false
         popupWindow.setBackgroundDrawable(new BitmapDrawable());
-        popupWindow.setAnimationStyle(R.style.Popupwindow_album);
+        popupWindow.setAnimationStyle(R.style.a2alb_popupwindow_album);
         popupWindow.showAsDropDown(headerView);
         //动画
         final int dura = 300;
@@ -239,7 +239,7 @@ public class AlbumActivity extends AppCompatActivity {
         @Override
         public RecyclerView.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
 
-            View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_album_folder, parent, false);
+            View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.a2alb_item_album_folder, parent, false);
             return new FolderItemHolder(view);
 
         }

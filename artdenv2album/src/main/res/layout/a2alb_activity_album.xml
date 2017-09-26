@@ -22,7 +22,7 @@
             android:layout_centerVertical="true"
             android:layout_alignParentLeft="true"
             android:scaleType="centerInside"
-            android:src="@drawable/img_back_normal" />
+            android:src="@drawable/a2alb_img_back_normal" />
 
         <!--标题-->
         <LinearLayout
@@ -47,7 +47,7 @@
                 android:id="@+id/img_down"
                 android:layout_width="20dp"
                 android:layout_height="20dp"
-                android:src="@drawable/button_pull_down" />
+                android:src="@drawable/a2alb_button_pull_down" />
 
         </LinearLayout>
 

@@ -41,7 +41,7 @@ public class AlbumPhotoAdapter extends RecyclerView.Adapter<RecyclerView.ViewHol
 
     @Override
     public RecyclerView.ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.item_ablum_photo, parent, false);
+        View view = LayoutInflater.from(parent.getContext()).inflate(R.layout.a2alb_item_ablum_photo, parent, false);
         return new ItemPhotoHolder(view);
     }
 

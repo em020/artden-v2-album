@@ -2,8 +2,8 @@
 <resources>
 
     <!--现在改为相册目录的window的进出动画-->
-    <style name="Popupwindow_album">
-        <item name="android:windowEnterAnimation">@anim/album_popupwindow_enter</item>
-        <item name="android:windowExitAnimation">@anim/album_popupwindow_exit</item>
+    <style name="a2alb_popupwindow_album">
+        <item name="android:windowEnterAnimation">@anim/a2alb_album_popupwindow_enter</item>
+        <item name="android:windowExitAnimation">@anim/a2alb_album_popupwindow_exit</item>
     </style>
 </resources>
